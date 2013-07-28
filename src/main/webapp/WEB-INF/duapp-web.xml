@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<du-web-app xmlns="http://bae.baidu.com/java/1.0">
+  <!-- <static-files>
+      <include path="/**.js"/>
+      <include path="/**.css"/>
+      <include path="/**.jpg"/>
+      <include path="/**.gif"/>
+      <include path="/**.jpeg"/>
+      <include path="/**.ico"/>
+      <include path="/**.htm"/>
+      <include path="/**.html"/>
+      <include path="/**.png"/>
+      <include path="/**/resources/**"/>
+  </static-files> -->
+  <sessions-enabled>true</sessions-enabled>
+	<static-files>
+		<exclude path="/**.html" />
+		<exclude path="/**.js" />
+		<exclude path="/**.css" />
+	</static-files>
+</du-web-app>
