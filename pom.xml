@@ -270,6 +270,17 @@
 		</repository>
 	</repositories>
 	<pluginRepositories>
+        <pluginRepository>
+            <id>nexus</id>
+            <name>local private nexus</name>
+            <url>http://maven.oschina.net/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
 		<pluginRepository>
 			<id>baemaven</id>
 			<name>BAE Maven</name>
