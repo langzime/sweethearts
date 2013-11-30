@@ -49,7 +49,7 @@ public class DispatcherServlet extends org.springframework.web.servlet.Dispatche
      * @param mv
      */
     private void exportWidgetTld(HttpServletRequest request, ModelAndView mv) {
-        try {
+       /* try {
             if (factory == null) {
                 factory = new TaglibFactory(request.getSession().getServletContext());
             }
@@ -57,6 +57,6 @@ public class DispatcherServlet extends org.springframework.web.servlet.Dispatche
         } catch (TemplateModelException e) {
             // TODO: handle exception
             e.printStackTrace();
-        }
+        }*/
     }
 }
